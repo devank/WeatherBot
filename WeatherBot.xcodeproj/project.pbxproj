@@ -14,6 +14,13 @@
 		07C0FEF4207B183D002F38A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C0FEF2207B183D002F38A5 /* LaunchScreen.storyboard */; };
 		07C0FEFF207B183D002F38A5 /* WeatherBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FEFE207B183D002F38A5 /* WeatherBotTests.swift */; };
 		07C0FF0A207B183D002F38A5 /* WeatherBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF09207B183D002F38A5 /* WeatherBotUITests.swift */; };
+		07C0FF18207B1F48002F38A5 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF17207B1F48002F38A5 /* PaddedLabel.swift */; };
+		07C0FF1A207B2FA3002F38A5 /* SenderMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF19207B2FA3002F38A5 /* SenderMessageCell.swift */; };
+		07C0FF1C207B2FD5002F38A5 /* ReceiverMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF1B207B2FD5002F38A5 /* ReceiverMessageCell.swift */; };
+		07C0FF1E207B3091002F38A5 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF1D207B3091002F38A5 /* MessageModel.swift */; };
+		07C0FF20207B38FE002F38A5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF1F207B38FE002F38A5 /* Weather.swift */; };
+		07C0FF22207B3A8A002F38A5 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF21207B3A8A002F38A5 /* WeatherManager.swift */; };
+		07C0FF24207B407A002F38A5 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C0FF23207B407A002F38A5 /* ChatManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		07C0FF05207B183D002F38A5 /* WeatherBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C0FF09207B183D002F38A5 /* WeatherBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBotUITests.swift; sourceTree = "<group>"; };
 		07C0FF0B207B183D002F38A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C0FF17207B1F48002F38A5 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		07C0FF19207B2FA3002F38A5 /* SenderMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMessageCell.swift; sourceTree = "<group>"; };
+		07C0FF1B207B2FD5002F38A5 /* ReceiverMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverMessageCell.swift; sourceTree = "<group>"; };
+		07C0FF1D207B3091002F38A5 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		07C0FF1F207B38FE002F38A5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		07C0FF21207B3A8A002F38A5 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		07C0FF23207B407A002F38A5 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				07C0FEF0207B183D002F38A5 /* Assets.xcassets */,
 				07C0FEF2207B183D002F38A5 /* LaunchScreen.storyboard */,
 				07C0FEF5207B183D002F38A5 /* Info.plist */,
+				07C0FF17207B1F48002F38A5 /* PaddedLabel.swift */,
+				07C0FF19207B2FA3002F38A5 /* SenderMessageCell.swift */,
+				07C0FF1B207B2FD5002F38A5 /* ReceiverMessageCell.swift */,
+				07C0FF1D207B3091002F38A5 /* MessageModel.swift */,
+				07C0FF1F207B38FE002F38A5 /* Weather.swift */,
+				07C0FF21207B3A8A002F38A5 /* WeatherManager.swift */,
+				07C0FF23207B407A002F38A5 /* ChatManager.swift */,
 			);
 			path = WeatherBot;
 			sourceTree = "<group>";
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C0FF1A207B2FA3002F38A5 /* SenderMessageCell.swift in Sources */,
+				07C0FF1E207B3091002F38A5 /* MessageModel.swift in Sources */,
+				07C0FF22207B3A8A002F38A5 /* WeatherManager.swift in Sources */,
+				07C0FF24207B407A002F38A5 /* ChatManager.swift in Sources */,
+				07C0FF18207B1F48002F38A5 /* PaddedLabel.swift in Sources */,
 				07C0FEEC207B183B002F38A5 /* ViewController.swift in Sources */,
+				07C0FF1C207B2FD5002F38A5 /* ReceiverMessageCell.swift in Sources */,
 				07C0FEEA207B183B002F38A5 /* AppDelegate.swift in Sources */,
+				07C0FF20207B38FE002F38A5 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
