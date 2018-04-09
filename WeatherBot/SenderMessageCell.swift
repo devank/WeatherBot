@@ -3,7 +3,7 @@
 //  WeatherBot
 //
 //  Created by Devan on 09/04/18.
-//  Copyright © 2018 Perleybrook Labs LLC. All rights reserved.
+//  Copyright © 2018 Devan K. All rights reserved.
 //
 
 import UIKit
