@@ -58,15 +58,17 @@ class ViewController: UIViewController {
     }
     
     func sendMessageToBot() {
-        self.lastMessage = messageTextBox.text!
-        messageTextBox.text = ""
-        let message = MessageModel()
-        message.user = .sender
-        message.message = self.lastMessage
-        data.append(message)
-        self.tableView.reloadData()
-        self.scrollToBottom()
-        self.displayBotResponse()
+        if messageTextBox.text != "" {
+            self.lastMessage = messageTextBox.text!
+            messageTextBox.text = ""
+            let message = MessageModel()
+            message.user = .sender
+            message.message = self.lastMessage
+            data.append(message)
+            self.tableView.reloadData()
+            self.scrollToBottom()
+            self.displayBotResponse()
+        }
     }
     
     func displayBotResponse() {
